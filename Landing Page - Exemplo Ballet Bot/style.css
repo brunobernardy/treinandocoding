@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/*acabei usando a importação de fonte por url pq dava dando erro com as da pasta/pc*/
 
 * {
     margin: 0;
