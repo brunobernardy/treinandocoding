@@ -124,11 +124,12 @@ main{
     color:antiquewhite;
     text-transform: uppercase;
     background-color: transparent;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 0.2rem;
     border-radius: 20px;
     position: relative;
     transition: 1.5s;
+    font-size: 16px;
 }
 
 .btns button:hover{
@@ -148,7 +149,11 @@ main{
     position: absolute;
     width: 0;
     height: 60px;
-    background-color: rgb(61,61,61);
+    background-color: rgba(129, 61, 44, 0.856);
     z-index: -1;
     transition: 1s;
+}
+
+.btns btn-exp{
+   
 }
