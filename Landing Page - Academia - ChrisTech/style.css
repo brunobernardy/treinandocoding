@@ -17,7 +17,7 @@ html{
 }
 
 body{
-    background: linear-gradient(rgba(90, 65, 10, 0.575), rgba(146, 55, 55, 0.699)), url(img.JPG);
+    background: linear-gradient(rgba(90, 65, 10, 0.575), rgba(146, 55, 55, 0.699)), url(img1.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -58,6 +58,7 @@ header {
     padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
+    
 }
 
 .menu-content .list-itens a:before {
@@ -93,15 +94,15 @@ main{
 /*  Textos conteúdo principal*/
 .primary-text {
     width: 850px;
-    font-size: 5rem;
-    margin-bottom: 2rem;
+    font-size: 7rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: whitesmoke
 }
 
 .second-text {
     margin-bottom: 7rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color:rgb(243, 230, 172);
     text-transform: uppercase;
 }
@@ -110,14 +111,11 @@ main{
 .btns { /** aqui ém a "capsula" do botão, a caixa em si.*/
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
-
-
-
 .btns button {
-    width: 250px;
+    width: 450px;
     height: 60px;
     cursor: pointer;
     border: 1px solid whitesmoke;
@@ -149,11 +147,7 @@ main{
     position: absolute;
     width: 0;
     height: 60px;
-    background-color: rgba(129, 61, 44, 0.856);
+    background-color: rgba(141, 139, 132, 0.966);
     z-index: -1;
     transition: 1s;
-}
-
-.btns btn-exp{
-   
 }

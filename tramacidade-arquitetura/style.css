@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;300;500&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:wght@100;300;500;700&display=swap');
+
+/* Zerando o CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fundo da Tela*/
+
+body {
+    font-size: 100%;
+    background: rgb(255,255,255);
+    max-width: 1200px;
+}
+
+header {
+    width: 100%;
+    height: 7%;
+    background-color: rgba(7, 6, 5, 0.322);
+    position: fixed;
+    top: 0;
+    border: none;
+    
+    
+}
+
+/*.cabecalho-imagem {
+    height: 150%;
+}*/
+
+.menu-content {
+    display: flex;
+    height: 100%;    
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    
+}
+
+.list-itens{ /*
+    ~~procurar tentar fazer um "hover" no texto/conteudo do header numa cor que seja o negativo do que está atrás, na página ~main ou deixar mais borrado/apagado o conteudo de trás.
+    ~~colocar o logo (contendo link da home) na header quando estiver em outras páginas que não a home.
+    */
+    
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(0,0,0);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 0.4rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before{
+    width:100%;    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+h1{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: left;
+    font-size: 55px;
+    margin-bottom: 8rem;
+    margin-left: 200px;
+    width: 750px;
+}
+
+span{
+    color: rgb(0,0,0);
+}
+
+a2:hover{  
+    font-weight: 300;
+    transition: 0.1s all;
+}
+
+p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.logo-do-meio{
+    width: 900px;
+ 
+}
+
+/*nao esquecer do footer*/
+
+footer{
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+h2{/*chamar(?) alguma ação que copia o email, como um botão, mas sem borda, só com hover*/
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 20px;
+    font-size: 26px;
+    color: rgb(0,0,0);
+    display: flex;
+    flex-direction: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
