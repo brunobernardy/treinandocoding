@@ -85,3 +85,10 @@ main{
     align-items: center;
     width: 600px
     }
+
+.imagem-principal-cda{
+    width:700px;
+    position:relative;
+    align-items: center;
+
+}
