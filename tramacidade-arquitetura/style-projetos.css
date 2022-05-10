@@ -4,15 +4,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 /*Fundo da Tela*/
 
 body {
     font-size: 100%;
-    background: rgb(255,255,255);
-    max-width: 1200px;
+    background: rgb(233, 233, 233);
 }
 
 header {
@@ -36,6 +34,7 @@ header {
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;
+    
     
 }
 
@@ -79,16 +78,68 @@ header {
     width:100%;    
 }
 
+
+
+/* 
+    ----------------------------------------------------------------------------------------------
+    corpo
+*/
+
+
 main{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 600px
-    }
+    justify-content: center;    
+    gap: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-content{
+
+}
 
 .imagem-principal-cda{
-    width:700px;
-    position:relative;
-    align-items: center;
+    width:400px;
+    border-radius: 25px;
 
+}
+
+.imagem-cda-dois{
+    width: 400px;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*nao esquecer do footer*/
+
+footer {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h2{/*chamar(?) alguma ação que copia o email, como um botão, mas sem borda, só com hover*/
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 20px;
+    font-size: 26px;
+    color: rgb(0,0,0);
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
