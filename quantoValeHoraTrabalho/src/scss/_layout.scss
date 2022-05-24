@@ -135,6 +135,64 @@ section {
 
     label{
         margin: 15px 0 10px;
-        
+        font-weight: 500;
+        color: #404040;
+    }
+
+    input[type="text"] {
+        background: #fff;
+        padding: 15px 20px;
+        border: 2px solid #eee;
+        color: #555;
+        outline: 0;
+        width: 100%;
+        font-size: 16px;
+        font-family: $font-base;
+        @include prefix(border-radius, 5px);
+        @include prefix(transition, all .4s ease);
+        &:focus {
+            outline: 0;
+            background: #fff;
+            border-color: #fff;
+            @include prefix(box-shadow, 0 5px 10px rgba(0,0,0,0.05));
+        }
+
+        &.error {
+            border-color: rgb(214, 34, 34);            
+        }
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}
+
+// Resultado
+#resultado {
+    background-color: $main-color;
+    color: $yellow;
+    padding: 20px;
+    border-radius: 5px;
+
+    .calculoFinal{
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        color: lighten($main-color, 50%);
+    }
+}
+
+.label {
+    background: $main-color;
+    padding: 2px 5px;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    @include prefix(border-radius, 3px);
+}
+
+.hidden-xs {
+    @media screen and (max-width: 767px) {
+        display: none;
     }
 }
